@@ -1,15 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sanjay Nandaniya | Portfolio</title>
+  <title>Sanjay Nandaniya | Industry 4.0 Architect</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
-    body { font-family: Arial; margin: 0; background: #f5f7fa; color: #333; }
-    header { background: #1f2937; color: white; padding: 30px; text-align: center; }
-    h1 { margin: 0; }
-    section { padding: 30px; max-width: 900px; margin: auto; }
-    .card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 10px; }
-    ul { padding-left: 20px; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    .subtitle {
+      color: #38bdf8;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .contact {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: #38bdf8;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #334155;
+      padding: 6px 10px;
+      margin: 5px;
+      border-radius: 6px;
+      font-size: 12px;
+    }
+
+    .highlight {
+      color: #22c55e;
+      font-weight: bold;
+    }
+
+    .experience-title {
+      color: #facc15;
+      font-weight: bold;
+    }
+
   </style>
 </head>
 
@@ -17,8 +85,10 @@
 
 <header>
   <h1>Sanjay Nandaniya</h1>
-  <p>Industry 4.0 & IIoT Architect | Edge AI | Digital Twin Specialist</p>
-  <p>Email: nandaniyasanjay123@gmail.com | 📞 +91-9687757217</p>
+  <div class="subtitle">Industry 4.0 Architect | Edge AI | Digital Twins</div>
+  <div class="contact">
+    📧 nandaniyasanjay123@gmail.com | 📞 +91-9687757217
+  </div>
 </header>
 
 <section>
@@ -26,49 +96,59 @@
 <div class="card">
 <h2>About Me</h2>
 <p>
-Industry 4.0 and IIoT Architect with 7+ years of experience in Edge AI, Digital Twins, and IT-OT systems. 
-Expert in building production-grade industrial platforms across manufacturing, pharma, and energy domains.
+Architect-level professional with <span class="highlight">7+ years</span> of experience across Edge AI, Industrial IoT, and Digital Twin platforms. 
+Specialized in building <span class="highlight">production-grade edge-to-cloud systems</span> across manufacturing, pharma, and energy industries.
 </p>
 </div>
 
 <div class="card">
 <h2>Core Expertise</h2>
+<div class="tag">Edge AI (LLM, RAG, CV)</div>
+<div class="tag">Digital Twin Architecture</div>
+<div class="tag">Industrial IoT</div>
+<div class="tag">AWS & Azure IoT</div>
+<div class="tag">OPC UA / MQTT / BACnet</div>
+<div class="tag">GPU / DSP / NPU Acceleration</div>
+<div class="tag">Microservices & Docker</div>
+</div>
+
+<div class="card">
+<h2>Key Achievements</h2>
 <ul>
-<li>Edge AI (LLM, RAG, Computer Vision)</li>
-<li>Industrial IoT & MES Systems</li>
-<li>AWS & Azure IoT Platforms</li>
-<li>Digital Twin Architecture</li>
-<li>Hardware Acceleration (GPU, DSP, NPU)</li>
-<li>Industrial Protocols (OPC UA, MQTT, BACnet)</li>
+<li>Validated <span class="highlight">25+ AI/ML containers</span> across edge hardware platforms</li>
+<li>Built scalable <span class="highlight">LLM + RAG pipelines</span> with FAISS & LangChain</li>
+<li>Delivered <span class="highlight">enterprise IoT platforms</span> across multi-plant deployments</li>
+<li>Designed <span class="highlight">Digital Twin solutions</span> on Azure</li>
+<li>Improved AI reliability through benchmarking, thermal & stress validation</li>
 </ul>
 </div>
 
 <div class="card">
 <h2>Professional Experience</h2>
 
-<h3>Nagarro (2024 - Present)</h3>
-<p>Staff Engineer – IIoT & Edge AI</p>
+<p class="experience-title">Nagarro (2024 - Present)</p>
 <ul>
-<li>Built LLM + RAG pipelines using LangChain & FAISS</li>
-<li>Deployed AI models on Jetson, Qualcomm, NXP</li>
-<li>Created benchmarking frameworks for AI workloads</li>
+<li>Built LLM pipelines (DeepSeek, Llama, Qwen) using LangChain & Ollama</li>
+<li>Edge AI deployment on Jetson, Qualcomm, NXP</li>
+<li>Benchmarking frameworks for AI performance & stability</li>
 </ul>
 
-<h3>Accenture (2023 - 2024)</h3>
+<p class="experience-title">Accenture (2023 - 2024)</p>
 <ul>
-<li>Developed Azure Digital Twin solution</li>
-<li>Integrated PLC, SCADA with Azure IoT</li>
+<li>Azure Digital Twin implementation</li>
+<li>OT integration with PLC, SCADA, IoT</li>
 </ul>
 
-<h3>Wipro (2021 - 2023)</h3>
+<p class="experience-title">Wipro (2021 - 2023)</p>
 <ul>
-<li>Designed Cloud Historian on Azure</li>
-<li>Built Industrial IoT platform (ThingWorx)</li>
+<li>Cloud historian architecture on Azure</li>
+<li>ThingWorx-based IIoT platforms</li>
 </ul>
 
-<h3>Torrent Pharma (2019 - 2021)</h3>
+<p class="experience-title">Torrent Pharma (2019 - 2021)</p>
 <ul>
 <li>MES + SCADA integration for 100+ machines</li>
+<li>21 CFR Part 11 compliance implementation</li>
 </ul>
 
 </div>
@@ -77,21 +157,23 @@ Expert in building production-grade industrial platforms across manufacturing, p
 <h2>Projects</h2>
 <ul>
 <li>Edge AI Platform (LLM + Computer Vision + RAG)</li>
-<li>Industrial IoT Platforms (AWS + Microservices)</li>
-<li>Azure Digital Twin Implementation</li>
-<li>Cloud Historian for Multi-Plant Analytics</li>
+<li>Industrial IoT Platform (AWS Microservices)</li>
+<li>Azure Digital Twin System</li>
+<li>Cloud Historian for Multi-site Analytics</li>
 </ul>
 </div>
 
 <div class="card">
-<h2>Technical Skills</h2>
-<ul>
-<li>Python, FastAPI, Node.js</li>
-<li>Docker, Microservices</li>
-<li>LangChain, Ollama, YOLO</li>
-<li>AWS, Azure</li>
-<li>SQL, FAISS</li>
-</ul>
+<h2>Tech Stack</h2>
+<div class="tag">Python</div>
+<div class="tag">FastAPI</div>
+<div class="tag">Node.js</div>
+<div class="tag">Docker</div>
+<div class="tag">LangChain</div>
+<div class="tag">YOLO</div>
+<div class="tag">AWS</div>
+<div class="tag">Azure</div>
+<div class="tag">FAISS</div>
 </div>
 
 <div class="card">
