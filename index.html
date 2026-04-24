@@ -10,17 +10,18 @@
       margin: 0;
       background: #0f172a;
       color: #e2e8f0;
+      line-height: 1.6;
     }
 
     header {
       text-align: center;
       padding: 60px 20px;
-      background: linear-gradient(135deg, #1e293b, #0f172a);
+      background: linear-gradient(135deg, #1e293b, #020617);
     }
 
     h1 {
       margin: 0;
-      font-size: 40px;
+      font-size: 42px;
     }
 
     .subtitle {
@@ -31,7 +32,6 @@
 
     .contact {
       margin-top: 10px;
-      font-size: 14px;
       color: #94a3b8;
     }
 
@@ -46,17 +46,18 @@
       padding: 25px;
       margin-bottom: 20px;
       border-radius: 12px;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     }
 
     h2 {
       color: #38bdf8;
       border-bottom: 1px solid #334155;
-      padding-bottom: 5px;
+      padding-bottom: 6px;
     }
 
-    ul {
-      padding-left: 20px;
+    .highlight {
+      color: #22c55e;
+      font-weight: bold;
     }
 
     .tag {
@@ -68,14 +69,10 @@
       font-size: 12px;
     }
 
-    .highlight {
-      color: #22c55e;
-      font-weight: bold;
-    }
-
-    .experience-title {
+    .company {
       color: #facc15;
       font-weight: bold;
+      margin-top: 10px;
     }
 
   </style>
@@ -85,7 +82,7 @@
 
 <header>
   <h1>Sanjay Nandaniya</h1>
-  <div class="subtitle">Industry 4.0 Architect | Edge AI | Digital Twins</div>
+  <div class="subtitle">Industry 4.0 Architect | Edge AI | Digital Twins | IT-OT Transformation</div>
   <div class="contact">
     📧 nandaniyasanjay123@gmail.com | 📞 +91-9687757217
   </div>
@@ -94,61 +91,67 @@
 <section>
 
 <div class="card">
-<h2>About Me</h2>
+<h2>Professional Summary</h2>
 <p>
-Architect-level professional with <span class="highlight">7+ years</span> of experience across Edge AI, Industrial IoT, and Digital Twin platforms. 
-Specialized in building <span class="highlight">production-grade edge-to-cloud systems</span> across manufacturing, pharma, and energy industries.
+Industry 4.0 and IIoT Architect with <span class="highlight">7+ years of experience</span> across Edge AI, Digital Twins, and industrial cloud platforms.
+Expert in translating complex industrial challenges into scalable, production-grade architectures across manufacturing, pharma, energy, and automotive domains.
 </p>
-</div>
-
-<div class="card">
-<h2>Core Expertise</h2>
-<div class="tag">Edge AI (LLM, RAG, CV)</div>
-<div class="tag">Digital Twin Architecture</div>
-<div class="tag">Industrial IoT</div>
-<div class="tag">AWS & Azure IoT</div>
-<div class="tag">OPC UA / MQTT / BACnet</div>
-<div class="tag">GPU / DSP / NPU Acceleration</div>
-<div class="tag">Microservices & Docker</div>
 </div>
 
 <div class="card">
 <h2>Key Achievements</h2>
 <ul>
-<li>Validated <span class="highlight">25+ AI/ML containers</span> across edge hardware platforms</li>
-<li>Built scalable <span class="highlight">LLM + RAG pipelines</span> with FAISS & LangChain</li>
-<li>Delivered <span class="highlight">enterprise IoT platforms</span> across multi-plant deployments</li>
-<li>Designed <span class="highlight">Digital Twin solutions</span> on Azure</li>
-<li>Improved AI reliability through benchmarking, thermal & stress validation</li>
+<li>Validated <span class="highlight">25+ AI/ML containers</span> across Qualcomm, NXP, NVIDIA platforms</li>
+<li>Built scalable <span class="highlight">LLM + RAG pipelines</span> using LangChain, FAISS</li>
+<li>Designed enterprise <span class="highlight">AWS & Azure IoT platforms</span></li>
+<li>Led Azure Digital Twin implementations</li>
+<li>Received Nagarro Care Award (2×)</li>
 </ul>
+</div>
+
+<div class="card">
+<h2>Core Competencies</h2>
+<div class="tag">Edge AI</div>
+<div class="tag">LLM & RAG</div>
+<div class="tag">Digital Twin</div>
+<div class="tag">Industrial IoT</div>
+<div class="tag">AWS / Azure</div>
+<div class="tag">OPC UA / MQTT</div>
+<div class="tag">GPU / DSP / NPU</div>
+<div class="tag">Microservices</div>
 </div>
 
 <div class="card">
 <h2>Professional Experience</h2>
 
-<p class="experience-title">Nagarro (2024 - Present)</p>
+<div class="company">Nagarro (2024 – Present)</div>
 <ul>
-<li>Built LLM pipelines (DeepSeek, Llama, Qwen) using LangChain & Ollama</li>
-<li>Edge AI deployment on Jetson, Qualcomm, NXP</li>
-<li>Benchmarking frameworks for AI performance & stability</li>
+<li>Delivered Edge AI workloads across Qualcomm, NXP, NVIDIA Jetson</li>
+<li>Built LLM pipelines (DeepSeek, Llama, Qwen) using Ollama & LangChain</li>
+<li>Developed RAG validation pipelines with FAISS</li>
+<li>Built Locust-based performance testing frameworks</li>
+<li>Conducted thermal, stress, and system reliability testing</li>
 </ul>
 
-<p class="experience-title">Accenture (2023 - 2024)</p>
+<div class="company">Accenture (2023 – 2024)</div>
 <ul>
-<li>Azure Digital Twin implementation</li>
-<li>OT integration with PLC, SCADA, IoT</li>
+<li>Delivered Azure Digital Twin solution</li>
+<li>Integrated PLC, SCADA with Azure IoT</li>
+<li>Built AKS-based ingestion pipelines</li>
+<li>Optimized KQL queries for analytics</li>
 </ul>
 
-<p class="experience-title">Wipro (2021 - 2023)</p>
+<div class="company">Wipro (2021 – 2023)</div>
 <ul>
-<li>Cloud historian architecture on Azure</li>
-<li>ThingWorx-based IIoT platforms</li>
+<li>Designed Cloud Historian across 5 sites</li>
+<li>Integrated GE Historian, Kepware, LIMS</li>
+<li>Built Azure IoT pipelines & dashboards</li>
 </ul>
 
-<p class="experience-title">Torrent Pharma (2019 - 2021)</p>
+<div class="company">Torrent Pharma (2019 – 2021)</div>
 <ul>
-<li>MES + SCADA integration for 100+ machines</li>
-<li>21 CFR Part 11 compliance implementation</li>
+<li>Integrated 100+ machines using MES & SCADA</li>
+<li>Implemented 21 CFR Part 11 compliance</li>
 </ul>
 
 </div>
@@ -156,24 +159,23 @@ Specialized in building <span class="highlight">production-grade edge-to-cloud s
 <div class="card">
 <h2>Projects</h2>
 <ul>
-<li>Edge AI Platform (LLM + Computer Vision + RAG)</li>
+<li>Edge AI Platform (LLM + CV + RAG)</li>
 <li>Industrial IoT Platform (AWS Microservices)</li>
 <li>Azure Digital Twin System</li>
-<li>Cloud Historian for Multi-site Analytics</li>
+<li>Cloud Historian Analytics</li>
 </ul>
 </div>
 
 <div class="card">
-<h2>Tech Stack</h2>
-<div class="tag">Python</div>
-<div class="tag">FastAPI</div>
-<div class="tag">Node.js</div>
-<div class="tag">Docker</div>
-<div class="tag">LangChain</div>
-<div class="tag">YOLO</div>
-<div class="tag">AWS</div>
-<div class="tag">Azure</div>
-<div class="tag">FAISS</div>
+<h2>Technical Skills</h2>
+<ul>
+<li><b>Edge AI:</b> LLM, RAG, Computer Vision</li>
+<li><b>Hardware:</b> Jetson, Qualcomm DSP/NPU, NXP</li>
+<li><b>Cloud:</b> AWS, Azure</li>
+<li><b>Backend:</b> Python, FastAPI, Node.js</li>
+<li><b>IIoT:</b> OPC UA, MQTT, BACnet, SCADA, MES</li>
+<li><b>Data:</b> SQL, FAISS, Time-series DB</li>
+</ul>
 </div>
 
 <div class="card">
